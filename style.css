@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.mybg-dark {
+    background-color: black;
+}
+
+.text-warning h1 {
+    color: #FDDA00;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.weight {
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+}
