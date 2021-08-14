@@ -6,8 +6,8 @@ body {
     background-color: black;
 }
 
-.text-warning h1 {
-    color: #FDDA00;
+.text-warning {
+    color: #FDDA00 !important;
 }
 
 h1 {
@@ -21,3 +21,128 @@ h1 {
 h5 {
     font-size: 18px;
 }
+
+.form-control {
+    background-color: black;
+    border-color: #FDDA00;
+    border-radius: 0%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: rgba(255, 255, 255, 0.808);
+}
+
+.form-control1 {
+    background-color: black;
+    border-color: #FDDA00;
+    border-radius: 3px;
+    color: rgba(255, 255, 255, 0.808);
+    width: 500px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(209, 207, 207); /* Firefox */
+    text-align: center;
+}
+
+.form-control:focus {
+    background-color: black;
+    border-color: #FDDA00;
+    box-shadow: none;
+    color: white;
+}
+
+.my-btn {
+    padding: 8px 70px;
+}
+
+.border-top {
+    padding-bottom: 40px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px solid white !important;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.border-top1 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px solid white !important;
+    width: 240px;
+    margin: 0 auto;
+}
+
+.border-top2 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px solid #FDDA00 !important;
+    width: 450px;
+}
+
+.border-bottom1 {
+    padding-bottom: 10px;
+    padding-top: 20px;
+    margin-top: 10px;
+    border-top: 1px solid #FDDA00 !important;
+    width: 450px;
+}
+
+.mytext-white {
+    margin: 0 auto;
+    color: rgba(255, 255, 255, 0.863);
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.mytext-white:hover {
+    margin: 0 auto;
+    color: #FDDA00;
+    text-decoration: none;
+  
+}
+
+.dropdown-item:focus {
+    background-color: black;
+}
+
+.letter-spacing {
+    letter-spacing: 2px ;
+}
+
+.gdtk:hover {
+    border: 3px solid #FDDA00;
+    border-radius: 7px;
+}
+
+.gdtk:active {
+    border: 3px solid white;
+    border-radius: 7px;
+}
+
+.form-check-label {
+    width: 230px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.modal-content {
+    background-color: black;
+    color: white;
+    border: 1px solid #FDDA00;
+    width: 100%;
+    height: 500px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: white;
+}
+
