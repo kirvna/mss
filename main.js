@@ -7,11 +7,11 @@ owl.owlCarousel({
     loop:true,
     margin:10,
     autoplay:true,
-    autoplayTimeout:2000,
+    autoplayTimeout:3000,
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:1
+            items:2
         },
         600:{
             items:3
@@ -27,3 +27,7 @@ $('.play').on('click',function(){
 $('.stop').on('click',function(){
     owl.trigger('stop.owl.autoplay')
 })
+
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
