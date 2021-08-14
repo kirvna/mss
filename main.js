@@ -11,7 +11,7 @@ owl.owlCarousel({
     autoplayHoverPause:true,
     responsive:{
         0:{
-            items:2
+            items:0
         },
         600:{
             items:3
